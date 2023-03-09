@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnCadastro;
+    Button btnCalculadora1;
     Button btnLogin;
     Button btnPet;
     Button btnConsulta;
@@ -20,17 +20,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnCadastro = findViewById(R.id.btnCadastro);
+        btnCalculadora1 = findViewById(R.id.btnCalculadora1);
         btnLogin = findViewById(R.id.btnLogin);
         btnPet = findViewById(R.id.btnPet);
         btnConsulta = findViewById(R.id.btnConsulta);
         btnAgradecimentos = findViewById(R.id.btnAgradecimentos);
         btnCreditos = findViewById(R.id.btnCreditos);
 
-        btnCadastro.setOnClickListener(new View.OnClickListener() {
+        btnCalculadora1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(MainActivity.this, Cadastro.class);
+                Intent in = new Intent(MainActivity.this, Calculadora1.class);
                 startActivity(in);
             }
         });
