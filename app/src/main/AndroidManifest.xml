@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".Resultado"
+            android:exported="false" />
+        <activity
             android:name=".Calculadora1"
             android:exported="false" />
         <activity
