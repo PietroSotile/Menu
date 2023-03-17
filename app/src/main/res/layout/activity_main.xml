@@ -32,11 +32,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnMemoria1"
         android:layout_width="180dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
-        android:text="Login"
+        android:text="Jogo da memória"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalculadora1" />
@@ -49,7 +49,7 @@
         android:text="Pet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMemoria1" />
 
     <Button
         android:id="@+id/btnConsulta"

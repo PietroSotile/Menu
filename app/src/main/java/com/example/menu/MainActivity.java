@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button btnCalculadora1;
-    Button btnLogin;
+    Button btnMemoria1;
     Button btnPet;
     Button btnConsulta;
     Button btnAgradecimentos;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnCalculadora1 = findViewById(R.id.btnCalculadora1);
-        btnLogin = findViewById(R.id.btnLogin);
+        btnMemoria1 = findViewById(R.id.btnMemoria1);
         btnPet = findViewById(R.id.btnPet);
         btnConsulta = findViewById(R.id.btnConsulta);
         btnAgradecimentos = findViewById(R.id.btnAgradecimentos);
@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        btnMemoria1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inLog = new Intent(MainActivity.this, Login.class);
+                Intent inLog = new Intent(MainActivity.this, Memoria1.class);
                 startActivity(inLog);
             }
         });

@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".Memoria3"
+            android:exported="false" />
+        <activity
+            android:name=".Memoria2"
+            android:exported="false" />
+        <activity
+            android:name=".Memoria1"
+            android:exported="false" />
+        <activity
             android:name=".Resultado"
             android:exported="false" />
         <activity
@@ -28,9 +37,6 @@
             android:exported="false" />
         <activity
             android:name=".Pet"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
