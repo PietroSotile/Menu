@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".Gerador"
+            android:exported="false" />
+        <activity
+            android:name=".Imc"
+            android:exported="false" />
+        <activity
+            android:name=".RealDolar"
+            android:exported="false" />
+        <activity
             android:name=".Memoria3"
             android:exported="false" />
         <activity
@@ -27,16 +36,7 @@
             android:name=".Calculadora1"
             android:exported="false" />
         <activity
-            android:name=".Creditos"
-            android:exported="false" />
-        <activity
             android:name=".Agradecimentos"
-            android:exported="false" />
-        <activity
-            android:name=".Consulta"
-            android:exported="false" />
-        <activity
-            android:name=".Pet"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -10,10 +10,10 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button btnCalculadora1;
     Button btnMemoria1;
-    Button btnPet;
-    Button btnConsulta;
+    Button btnConversao;
+    Button btnCalcularImc;
     Button btnAgradecimentos;
-    Button btnCreditos;
+    Button btnNumAleatorios;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnCalculadora1 = findViewById(R.id.btnCalculadora1);
         btnMemoria1 = findViewById(R.id.btnMemoria1);
-        btnPet = findViewById(R.id.btnPet);
-        btnConsulta = findViewById(R.id.btnConsulta);
+        btnConversao = findViewById(R.id.btnConversao);
+        btnCalcularImc = findViewById(R.id.btnCalcularImc);
         btnAgradecimentos = findViewById(R.id.btnAgradecimentos);
-        btnCreditos = findViewById(R.id.btnCreditos);
+        btnNumAleatorios = findViewById(R.id.btnNumAleatorios);
 
         btnCalculadora1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,24 +38,24 @@ public class MainActivity extends AppCompatActivity {
         btnMemoria1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inLog = new Intent(MainActivity.this, Memoria1.class);
-                startActivity(inLog);
+                Intent inMemo = new Intent(MainActivity.this, Memoria1.class);
+                startActivity(inMemo);
             }
         });
 
-        btnPet.setOnClickListener(new View.OnClickListener() {
+        btnConversao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inPet = new Intent(MainActivity.this, Pet.class);
-                startActivity(inPet);
+                Intent inConversao = new Intent(MainActivity.this, RealDolar.class);
+                startActivity(inConversao);
             }
         });
 
-        btnConsulta.setOnClickListener(new View.OnClickListener() {
+        btnCalcularImc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inCon = new Intent(MainActivity.this, Consulta.class);
-                startActivity(inCon);
+                Intent inImc = new Intent(MainActivity.this, Imc.class);
+                startActivity(inImc);
             }
         });
 
@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnCreditos.setOnClickListener(new View.OnClickListener() {
+        btnNumAleatorios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inCred = new Intent(MainActivity.this, Creditos.class);
-                startActivity(inCred);
+                Intent inAle = new Intent(MainActivity.this, Gerador.class);
+                startActivity(inAle);
             }
         });
     }

@@ -42,24 +42,24 @@
         app:layout_constraintTop_toBottomOf="@+id/btnCalculadora1" />
 
     <Button
-        android:id="@+id/btnPet"
+        android:id="@+id/btnConversao"
         android:layout_width="180dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
-        android:text="Pet"
+        android:text="Conversão Real Dolár"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnMemoria1" />
 
     <Button
-        android:id="@+id/btnConsulta"
+        android:id="@+id/btnCalcularImc"
         android:layout_width="180dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
-        android:text="Consulta"
+        android:text="Calcular Imc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPet" />
+        app:layout_constraintTop_toBottomOf="@+id/btnConversao" />
 
     <Button
         android:id="@+id/btnAgradecimentos"
@@ -69,14 +69,14 @@
         android:text="Agradecimentos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnConsulta" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcularImc" />
 
     <Button
-        android:id="@+id/btnCreditos"
+        android:id="@+id/btnNumAleatorios"
         android:layout_width="180dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
-        android:text="Creditos"
+        android:text="Números Aleatórios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAgradecimentos" />
