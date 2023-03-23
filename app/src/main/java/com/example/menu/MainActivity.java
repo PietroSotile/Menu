@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnMemoria1;
     Button btnConversao;
     Button btnCalcularImc;
-    Button btnAgradecimentos;
+    Button btnSubstituir;
     Button btnNumAleatorios;
 
     @Override
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnMemoria1 = findViewById(R.id.btnMemoria1);
         btnConversao = findViewById(R.id.btnConversao);
         btnCalcularImc = findViewById(R.id.btnCalcularImc);
-        btnAgradecimentos = findViewById(R.id.btnAgradecimentos);
+        btnSubstituir = findViewById(R.id.btnSubstituir);
         btnNumAleatorios = findViewById(R.id.btnNumAleatorios);
 
         btnCalculadora1.setOnClickListener(new View.OnClickListener() {
@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnAgradecimentos.setOnClickListener(new View.OnClickListener() {
+        btnSubstituir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent inAgra = new Intent(MainActivity.this, Agradecimentos.class);
-                startActivity(inAgra);
+                Intent inSubs = new Intent(MainActivity.this, Substituir.class);
+                startActivity(inSubs);
             }
         });
 
