@@ -52,7 +52,7 @@ public class Imc extends AppCompatActivity {
                     Double peso = Double.parseDouble(etPeso.getText().toString());
                     Double imc = peso/(altura*altura);
                     if (imc < 18.4){
-                        tvImc.setText("Seu IMC: "+imc);
+                        tvImc.setText("Seu IMC: "+Arredondar(imc));
                         tvClassificacaoImc.setText("Você está abaixo do peso.");
                     } else if (imc > 18.5 && imc < 24.9) {
                         tvImc.setText("Seu IMC: " +Arredondar(imc));
